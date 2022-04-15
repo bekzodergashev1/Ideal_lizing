@@ -1,18 +1,18 @@
 let form = document.querySelector("#form");
 
 let bot = {
-    token: "5399290456:AAG1-HmseAQgqpIbKJ__hsvSDOt872zpjhI",
-    chatID: "-1001479918154",
+    token: '5399290456:AAG1-HmseAQgqpIbKJ__hsvSDOt872zpjhI',
+    chatID: '-1001479918154',
 }
 
 form.addEventListener("submit", e=> {
     e.preventDefault();
 
-    let message1 = document.querySelector("#some_message1");
-    let message2 = document.querySelector("#some_message2");
+    let message = document.querySelector("#aa");
+    // let message2 = document.querySelector("#ss");
 
 
-    fetch('https://api.telegram.org/bot${bot.token}/sendMessage?chat_id=${bot.chatID}&text=${message.value}', {
+    fetch(`https://api.telegram.org/bot${bot.token}/sendMessage?chat_id=${bot.chatID}&text=${message.value}`, {
         method: "GET"
     })
     .then(success => {

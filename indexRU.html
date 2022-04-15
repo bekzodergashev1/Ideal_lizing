@@ -722,20 +722,18 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1668.1391856711055!2d69.21363293918577!3d41.236670693226316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae61808f8546eb%3A0xd61b556f63830b80!2z0J7QntCeICJJREVBTCBMRUFTSU5HIFVOSVQi!5e0!3m2!1sru!2s!4v1648977650043!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form id="form">
               
               <div class="form-group mt-3">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Ваше имя" required>
+                <input type="text" name="name" class="form-control" id="aa" placeholder="Ваше имя" required>
 
               </div>
               <div class="form-group mt-3">
-                <input type="text" name="tel" class="form-control" id="tel" placeholder="Телефонный номер" required>
+                <input type="text" name="tel" class="form-control" id="aa" placeholder="Телефонный номер" required>
               </div>
-              <div class="my-3">
-                <div class="loading">Загрузка</div>
-                <div class="sent-message">Ваше сообщение отправлено. Спасибо!</div>
-              </div>
-              <div class="text-center"><button type="submit">Отправить сообщение</button></div>
+              <div class="text-center"><br><br>
+              <button class="btn btn-primary bt" type="submit">Отправить сообщение</button>
+            </div>
             </form>
           </div>
 
@@ -825,6 +823,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/form.js"></script>
+
   <script>
     let a = 1;
 
