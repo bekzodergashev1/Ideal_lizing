@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uz">
 
 <head>
     <meta charset="utf-8">
@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="assets/img/LOGO 2.png" rel="icon">
+    <link href="assets/img/LOGO 2.png" rel="apple-touch-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
 
 
@@ -25,6 +25,10 @@
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -66,46 +70,51 @@
 
 <body>
 
-   <!-- ======= Header ======= -->
-   <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="#">
-        <img src="assets/img/LOGO 2.png" width="100%" height="100%" class="d-inline-block align-top" alt="">
+            <h1 class="logo"><a href="#">
+                <img src="assets/img/LOGO 2.png" width="100%" height="100%" class="d-inline-block align-top" alt="">
+        
+                <span></span></a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
 
-        <span></span></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">Asosiy</a></li>
+                    <li><a class="nav-link scrollto" href="#cars">Avtomobillar</a></li>
+                    <li><a class="nav-link scrollto" href="#about">Biz haqimizda</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Xizmat</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Kontaktlar</a></li>
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Главный</a></li>
-          <li><a class="nav-link scrollto" href="#cars">Aвтомобили</a></li>
-          <li><a class="nav-link scrollto" href="#about">О нас</a></li>
-          <li><a class="nav-link scrollto" href="#services">Сервис</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Контакты</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn btn-white"><strong>UZ | RU</strong></button>
+                        <div class="dropdown-content">
+                            <a class="dropdown-item" href="index.html"><span class="flag-icon flag-icon-uz"> </span>Uzbek</a>
+                            <a class="dropdown-item" href="indexRU.html"><span class="flag-icon flag-icon-ru"> </span>Russian</a>
+                        </div>
+                    </div>
 
-          <div class="dropdown">
-            <button class="dropbtn btn-white"><strong>UZ | RU</strong></button>
-            <div class="dropdown-content">
-              <a class="dropdown-item" href="index.html"><span class="flag-icon flag-icon-uz"> </span>Uzbek</a>
-              <a class="dropdown-item" href="indexRU.html"><span class="flag-icon flag-icon-ru"> </span>Russian</a>
-            </div>
-          </div>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
 
-    </div>
-  </header><!-- End Header -->
-     <!-- ======= Hero Section ======= -->
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center">
         <div class="container" data-aos="zoom-out" data-aos-delay="100">
-            <h1>Добро пожаловать в <span>IDEAL LIZING</span></h1>
-            <h2>ООО «Ideal Leasing Group» работает на рынке лизинговых услуг с 2019 года.</h2>
+            <h1><span>IDEAL LIZING</span> ga xush kelibsiz</h1>
+            <h2>“Ideal Leasing Group” MChJ 2019 yildan buyon lizing xizmatlari bozorida faoliyat yuritib kelmoqda.</h2>
             <div class="d-flex">
-                <a href="#cars" class="btn-get-started scrollto">Начать</a>
-                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Смотреть видео</span></a>
+                <a href="#cars" class="btn-get-started scrollto">Boshlash</a>
+                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i
+            class="bi bi-play-circle"></i><span>Video korish</span></a>
             </div>
         </div>
     </section>
@@ -114,8 +123,8 @@
     <main id="main">
         <br><br>
         <div class="section-title">
-            <h2>Aвтомобили</h2>
-            <h3><span>Aвтомобили</span> в лизинг </h3>
+            <h2>Avtomobillar</h2>
+            <h3> <span>Lizing  </span> uchun avtomobillar</h3>
         </div>
 
         <section id="cars" class="portfolio">
@@ -455,16 +464,16 @@
                             </a>
                         </div>
                         <!-- <div class="col-lg-3 mb-5 col-md-6">
-                  <a class="card mx-auto" style="width: 18rem;" href="#contact">
-                    <img src="assets/img/cars/Howo.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Howo</h5>
-                    </div>
-                  </a>
-                </div> -->
+              <a class="card mx-auto" style="width: 18rem;" href="#contact">
+                <img src="assets/img/cars/Howo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Howo</h5>
+                </div>
+              </a>
+            </div> -->
                     </div>
 
-                    <button id="show" type="button" class="btn btn-primary mx-auto" style="width: 30%;">Eще</button>
+                    <button id="show" type="button" class="btn btn-primary mx-auto" style="width: 30%;">Ko'proq</button>
                     <!-- <button id="hide"  type="button" class="btn btn-primary mx-auto" style="width: 5%;">11</button> -->
 
                 </div>
@@ -478,9 +487,9 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>О нас</h2>
-                    <h3>Узнать больше <span>О нас</span></h3>
-                    <p>ООО «Ideal Leasing Group» работает на рынке лизинговых услуг с 2019 года.</p>
+                    <h2>Biz haqimizda</h2>
+                    <h3><span>Biz haqimizda</span> ko'proq bilib oling</h3>
+                    <p>“Ideal Leasing Group” MChJ 2019 yildan buyon lizing xizmatlari bozorida faoliyat yuritib kelmoqda.</p>
                 </div>
 
                 <div class="row">
@@ -490,26 +499,26 @@
                     <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
                         <h3>“Ideal Leasing Group”</h3>
                         <p class="fst-italic">
-                            Являясь универсальной лизинговой компанией, ООО «IDEAL LEASING UNIT» предлагает большой спектр услуг по приобретению в лизинг различных видов , автотранспортных средств, дорожно-строительной техники и т.д.
+                            MChJ universal lizing kompaniyasi bo‘lgan holda, har xil turdagi avtotransport vositalari, yo‘l qurilish texnikasi va boshqalarni lizingga berish bo‘yicha keng ko‘lamli xizmatlarni taklif etadi.
                         </p>
                         <ul>
                             <li>
                                 <i class="bx bx-store-alt"></i>
                                 <div>
-                                    <h5>Срок лизинга</h5>
-                                    <p>У нас есть возможность в рассрочку от 13 до 36 месяцев с годовой до 18%. </p>
+                                    <h5>Ijara muddati</h5>
+                                    <p>Yillik 18% gacha bo'lib 13 oydan 36 oygacha bo'lib to'lash imkoniyati mavjud.</p>
                                 </div>
                             </li>
                             <li>
                                 <i class="bx bx-images"></i>
                                 <div>
-                                    <h5>Проверен временем</h5>
-                                    <p>Пяти летный опыт в сфере лизинга дает гарантию качества, оперативность и соблюдение правил ответственного финансирования. </p>
+                                    <h5>Vaqt bilan tasdiqlangan</h5>
+                                    <p>Lizing sohasidagi besh yillik tajriba sifat, samaradorlik va mas'uliyatli moliyalashtirish qoidalariga rioya qilish kafolatini beradi.</p>
                                 </div>
                             </li>
                         </ul>
                         <p>
-                            Мы - универсальная лизинговая компания, обладающая богатым опытом в области лизинга и предоставляющая широкий спектр услуг на всей территории страны. Наши клиенты: физические лица, индивидуальные предприниматели, представители малого и среднего бизнеса.
+                            Biz lizing sohasida boy tajribaga ega universal lizing kompaniyasimiz va butun mamlakat bo'ylab keng ko'lamli xizmatlar ko'rsatamiz. Bizning mijozlarimiz: jismoniy shaxslar, yakka tartibdagi tadbirkorlar, kichik va o'rta biznes vakillari.
                         </p>
                     </div>
                 </div>
@@ -521,10 +530,11 @@
 
         <!-- ======= Client ======= --><br><br>
         <div class="section-title">
-            <h2>Партнеры</h2>
-            <h3>Наш <span> партнеры</span></h3>
+            <h2>Hamkorlar</h2>
+            <h3>Bizning <span> hamkorlar</span></h3>
             <p></p>
-        </div>        <div class="container">
+        </div>
+        <div class="container">
             <h2 class="logotop"></h2>
             <section class="customer-logos slider">
                 <div class="slide"><img src="assets/img/clients/01.png"></div>
@@ -541,13 +551,13 @@
         </div>
 
 
-        <!-- ======= Services Section ======= -->
+
         <section id="services" class="services">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>Сервис</h2>
-                    <h3>Наши <span> преимущества</span></h3>
+                    <h2>Xizmatlar</h2>
+                    <h3>Bizning <span> xizmatlar</span></h3>
                     <p></p>
                 </div>
 
@@ -555,9 +565,9 @@
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon-box">
                             <div class="icon"><i class="bx bi-globe2" aria-hidden="true"></i></div>
-                            <!-- <h1 class="h1color"><span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1"
-                class="purecounter"></span></h1> -->
-                            <h5><a>Более 1000 + проданных легковых автомобилей</a></h5>
+                            <!-- <h1 class="h1color"><span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1" -->
+                            <!-- class="purecounter"></span></h1> -->
+                            <h5><a>1000 + dan ortiq yengil avtomobillar sotilgan</a></h5>
                             <p></p>
                         </div>
                     </div>
@@ -567,7 +577,7 @@
                             <div class="icon"><i class="bx bi-cash-coin"></i></div>
                             <!-- <h1 class="h1color"><span data-purecounter-start="0" data-purecounter-end="130" data-purecounter-duration="1"
                 class="purecounter"></span></h1> -->
-                            <h5><a>Более 130 + проданных спецтехники и сельхоз техники</a></h5>
+                            <h5><a>130 + dan ortiq maxsus texnika va qishloq xo'jaligi texnikasi sotilgan</a></h5>
                         </div>
                     </div>
 
@@ -576,7 +586,7 @@
                             <div class="icon"><i class="bx bi-emoji-smile"></i></div>
                             <!-- <h1 class="h1color"><span data-purecounter-start="0" data-purecounter-end="1500" data-purecounter-duration="1"
                 class="purecounter"></span></h1> -->
-                            <h5><a>Более 1500 + довольных клиентов</a></h5>
+                            <h5><a>1500 + dan ortiq mamnun mijozlar</a></h5>
                         </div>
                     </div>
 
@@ -585,7 +595,7 @@
                             <div class="icon"><i class="bx bi-handbag"></i></div>
                             <!-- <h1 class="h1color"><span data-purecounter-start="0" data-purecounter-end="70" data-purecounter-duration="1"
                 class="purecounter"></span></h1> -->
-                            <h5><a>Более 70 + международных и местных партнеров </a></h5>
+                            <h5><a>70 + dan ortiq xalqaro va mahalliy hamkorlar </a></h5>
                         </div>
                     </div>
 
@@ -594,7 +604,7 @@
                             <div class="icon"><i class="bx bi-pie-chart"></i></div>
                             <!-- <h1 class="h1color"><span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
                 class="purecounter"></span></h1> -->
-                            <h5><a>Более 5 + лет на опыта в этой сфере</a></h5>
+                            <h5><a>Ushbu sohada 5 + yildan ortiq tajribaga ega</a></h5>
                         </div>
                     </div>
 
@@ -603,7 +613,8 @@
                             <div class="icon"><i class="bx bi-headset"></i></div>
                             <!-- <h1 class="h1color"><span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1"
                 class="purecounter"></span></h1> -->
-                            <h5><a>Cлужба поддержки и наши консультанты работают 24/7</a></h5>
+                            <h5><a>Yordam xizmati va<br>
+                  maslahatchilarimiz 24/7 ishlaydi</a></h5>
                         </div>
                     </div>
 
@@ -622,12 +633,13 @@
                         <div class="swiper-slide">
                             <div class="testimonial-item">
                                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                                <h3>Алишер Исмоилов</h3>
-                                <h4>Покупатель</h4>
-                                <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Благодарен данному салону за отличную работу! Авто подбирал достаточно долго, ведь ассортимент богатый, но менеджеры очень грамотные и помогли мне определится
-                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                                </p>
+                                <h3>Alisher Ismoilov</h3>
+                                <h4>Xaridor
+                                    <h4>
+                                        <p>
+                                            <i class="bx bxs-quote-alt-left quote-icon-left"></i> Ushbu salonga ajoyib ish uchun rahmat! Men uzoq vaqt davomida mashina tanladim, chunki assortiment boy, ammo menejerlar juda malakali va qaror qabul qilishimga
+                                            yordam berishdi. <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                        </p>
                             </div>
                         </div>
                         <!-- End testimonial item -->
@@ -636,10 +648,11 @@
                             <div class="testimonial-item">
                                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                                 <h3>Лола Алиева</h3>
-                                <h4>Покупательница</h4>
+                                <h4>Xaridor</h4>
                                 <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Спасибо дилерскому центру Ideal Leasing Group за мою новую ласточку. Долго собиралась обновить авто, все думала накопить! А тут получилось лизинг за 3 дня оформить.
-                                    Порадовал большой выбор машин. Я очень довольна! <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Mening yangi qaldirg'ochim uchun Ideal Leasing Group dilerlik kompaniyasiga rahmat. Men uzoq vaqt davomida mashinani yangilamoqchi edim, men hamma narsani tejashni
+                                    o'yladim! Va keyin 3 kun ichida ijarani tashkil qilish uchun chiqdi. Avtomobillarning katta tanlovidan mamnun. Men juda hursandman!
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                             </div>
                         </div>
@@ -649,10 +662,11 @@
                             <div class="testimonial-item">
                                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                                 <h3>Мадина Рамзиева</h3>
-                                <h4>Покупательница</h4>
+                                <h4>Xaridor</h4>
                                 <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Хотелось бы оставить и свой отзыв о покупке автомобиля в "Ideal Leasing Group". Достойное обслуживание, внимательные менеджеры провозились со мной пока с выбором
-                                    определялась. Оформление заняло 3 дня. Спасибо команде "ILG"! Теперь я счастливый обладатель новой NEXIA 3! <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Men "Ideal Leasing Group" da mashina sotib olish haqidagi sharhimni qoldirmoqchiman. Yaxshi xizmat, ehtiyotkor menejerlar tanlov aniqlanmaguncha men bilan ovora
+                                    bo'lishdi. O'rnatish 3 kun davom etdi. ILG jamoasiga rahmat! Endi men yangi NEXIA 3 ning baxtli egasiman!
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                             </div>
                         </div>
@@ -662,9 +676,9 @@
                             <div class="testimonial-item">
                                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                                 <h3>Ахмадбек Акилхонов</h3>
-                                <h4>Покупатель</h4>
+                                <h4>Xaridor</h4>
                                 <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Молодцы ребята огромное им спасибо за подобранный автомобиль и за скидку которую они мне сделали покупкой очень доволен.
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Yaxshi bolalar, tanlangan mashina va ular menga bergan chegirmalari uchun katta rahmat, men xariddan juda mamnunman.
                                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                             </div>
@@ -675,10 +689,11 @@
                             <div class="testimonial-item">
                                 <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                                 <h3>Аббос Комилов</h3>
-                                <h4>Покупатель</h4>
+                                <h4>Xaridor</h4>
                                 <p>
-                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Можете меня поздравить с классным приобретением — теперь я полноправный хозяин легендарной черной GENTRA ! За покупкой ездил в автоцентр Ideal Leasing Group, авто
-                                    там много, выбирал нужную комплектацию и цвет долго с менеджером за что ему спасибо. <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                                    <i class="bx bxs-quote-alt-left quote-icon-left"></i> Siz meni ajoyib xarid bilan tabriklashingiz mumkin - endi men afsonaviy qora GENTRAning to'liq egasiman! Men xarid qilish uchun Ideal Leasing Group avtomarkaziga
+                                    bordim, u yerda mashinalar juda ko'p, men menejer bilan uzoq vaqt davomida to'g'ri jihoz va rangni tanladim, buning uchun unga minnatdorchilik bildiraman.
+                                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                                 </p>
                             </div>
                         </div>
@@ -698,14 +713,14 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Контакты</h2>
-                    <h3><span>Связаться с нами</span></h3>
+                    <h2>Kontaktlar</h2>
+                    <h3><span>Biz bilan bog'laning</span></h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="info-box mb-4">
                             <i class="bx bx-map"></i>
-                            <h3>Адрес</h3>
+                            <h3>Manzil</h3>
                             <p>Янги Сергели Автосалон, Тошкент 100000</p>
                         </div>
                     </div>
@@ -713,7 +728,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="info-box  mb-4">
                             <i class="bx bx-envelope"></i>
-                            <h3>Эл. адрес</h3>
+                            <h3>Email</h3>
                             <a href="email:contact@example.com" style="color: black;">contact@example.com</a>
                         </div>
                     </div>
@@ -721,7 +736,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="info-box  mb-4">
                             <i class="bx bx-phone-call"></i>
-                            <h3>Телефон</h3>
+                            <h3>Tel</h3>
                             <a href="tel:+998910021550" style="color: black;">+998 (99) 001 10 40<br>+998 (99) 444 10 40</a>
                         </div>
                     </div>
@@ -730,7 +745,7 @@
 
                 <div class="row" id="11">
 
-                    <div class="col-lg-6" >
+                    <div class="col-lg-6 ">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1668.1391856711055!2d69.21363293918577!3d41.236670693226316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae61808f8546eb%3A0xd61b556f63830b80!2z0J7QntCeICJJREVBTCBMRUFTSU5HIFVOSVQi!5e0!3m2!1sru!2s!4v1648977650043!5m2!1sru!2s"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
 
@@ -738,14 +753,15 @@
                         <form id="form">
 
                             <div class="form-group mt-3">
-                                <input type="text" name="name" class="form-control" id="aa" placeholder="Ваше имя" required>
+                                <input type="text" name="name" class="form-control" id="aa" placeholder="Ismingiz" required>
 
                             </div>
                             <div class="form-group mt-3">
-                                <input type="text" name="tel" class="form-control" id="ss" placeholder="Телефонный номер" required>
+                                <input type="text" name="tel" class="form-control" id="ss" placeholder="Tel" required>
                             </div>
+
                             <div class="text-center"><br><br>
-                                <button class="btn btn-primary bt" type="submit">Отправить сообщение</button>
+                                <button class="btn btn-primary" style="width: 100%;" type="submit">Yubormoq</button>
                             </div>
                         </form>
                     </div>
@@ -772,7 +788,7 @@
                         <h3>IDEAL LIZING<span>.</span></h3>
                         <p>
                             ООО "Ideal Leasing Group"<br> Янги Сергели Автосалон,<br> Тошкент 100000<br><br>
-                            <strong>Phone:</strong> +998 (99) 001 10 40<br>
+                            <strong>Tell:</strong> +998 (99) 001 10 40<br>
                             <strong>Email:</strong> info@example.com<br>
                         </p>
                     </div>
@@ -780,17 +796,17 @@
 
 
                     <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Hаши сервисы</h4>
+                        <h4>Bizning xizmatlar</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Главный</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#cars">Aвтомобили</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#about">О нас</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#services">Сервис</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#contact">Контакты</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Asosiy</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#cars">Biz xaqimizda</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#about">Biz xaqimizda</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#cervices">Xizmatlar</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#contact">Kontaktlar</a></li>
                     </div>
 
                     <div class="col-lg-3 col-md-6 footer-links"><br><br><br><br><br>
-                        <h4>Наши социальные сети</h4>
+                        <h4>Bizning ijtimoiy tarmoqlarimiz</h4>
                         <div class="social-links mt-3">
                             <a href="#" class="youtube"><i class="bx bxl-youtube"></i></a>
                             <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -818,7 +834,8 @@
     <!-- End Footer -->
 
     <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter.js"></script>
@@ -830,15 +847,25 @@
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
 
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/form.js"></script>
 
+    <!-- <script>
+    let a = 1;
+    
+    $(document).ready(function(){
+      $("#show").click(function(){
+      a = a + 1;
+        $(`#article${a}`).show();
+      });
+    });
+  </script> -->
     <script>
         let a = 1;
 

